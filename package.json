@@ -1,0 +1,24 @@
+{
+  "name": "anonymousBoard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./server.js localhost 3000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "ejs": "^2.5.7",
+    "express": "^4.18.1",
+    "express-basic-auth": "^1.1.2",
+    "express-session": "^1.17.3",
+    "morgan": "^1.8.2",
+    "mysql": "^2.18.1",
+    "nodemon": "^1.11.0",
+    "session-file-store": "^1.5.0"
+  }
+}
